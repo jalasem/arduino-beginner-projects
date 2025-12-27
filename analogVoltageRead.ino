@@ -10,7 +10,7 @@ void setup () {
 
 void loop() {
   readVal = analogRead(readPin);
-  v2 = (5. / 1023.) * readVal
+  v2 = (5. / 1023.) * readVal;
   Serial.println(v2);
   delay(delayTime);
 }
