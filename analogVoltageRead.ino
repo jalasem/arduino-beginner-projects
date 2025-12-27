@@ -1,5 +1,5 @@
 int readPin = A3;
-int v2 = 0;
+float v2 = 0;
 int readVal;
 int delayTime = 500;
 
